@@ -1,0 +1,28 @@
+{
+    "compileOnSave": true,
+    "exclude": [
+        "node_modules",
+        ".development"
+    ],
+    "include": [
+        "**/*"
+    ],
+    "typeRoots": [
+        "node_modules/@types"
+    ],
+    "compilerOptions": {
+        "target": "es6",
+        "esModuleInterop": true,
+        "strict": true,
+        "module": "commonJs",
+        "moduleResolution": "node",
+        "noImplicitAny": true,
+        "jsx": "react",
+        "sourceMap": true,
+        "forceConsistentCasingInFileNames": true,
+        "removeComments": true,
+        "declaration": false,
+        "baseUrl": "./src",
+        "resolveJsonModule": true,
+    }
+}
